@@ -9,7 +9,7 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-app.use("/items", itemRoutes);
+app.use("/", itemRoutes);
 
 app.listen(port, () => {
   console.log(`Server started at port http://localhost:${port}`);

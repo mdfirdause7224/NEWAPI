@@ -11,9 +11,9 @@ const {
 
 router.get("/", getItem);
 
-router.post("/:id", addItem);
+router.post("/", addItem);
 
-router.get("/", getItemId);
+router.get("/:id", getItemId);
 
 router.delete("/:id", deleteItem);
 
